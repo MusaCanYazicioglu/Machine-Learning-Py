@@ -1,0 +1,5 @@
+numpy -> Fundamental package for scientific computing.
+pandas -> Provides high-performance, easy-to-use data structures and data analysis tools.
+matplotlib -> Produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+
+skylearn.impute -> Transformers for missing value imputation.(SimpleImputer class)
