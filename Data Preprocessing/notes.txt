@@ -1,5 +1,23 @@
-numpy -> Fundamental package for scientific computing.
-pandas -> Provides high-performance, easy-to-use data structures and data analysis tools.
-matplotlib -> Produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+	#libraries
+- numpy -> Fundamental package for scientific computing.
+- pandas -> Provides high-performance, easy-to-use data structures and data analysis tools.
+- matplotlib -> Produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
 
-skylearn.impute -> Transformers for missing value imputation.(SimpleImputer class)
+	#For missing data
+- skylearn.impute -> Transformers for missing value imputation.(SimpleImputer class)
+
+	#Encoding categorical data
+- skylearn.preprocessing -> Provides several common utility functions and transformer classes to change raw feature vectors into a representation that is more suitable for the downstream estimators.
+- LabelEncoder -> Encode labels with value between 0 and n_classes-1.
+- OneHotEncoder -> Encode categorical integer features as a one-hot numeric array.
+
+	#Siplitting th Dataset
+- sklearn.model_selection -> Split arrays or matrices into random train and test subsets
+
+	#Future Scaling
+- Standardisation => x(stand) = x - mean(x) / standard_deviation(x)
+- Normalisation => x(norm) = x- min(x) / max(x) - min(x)
+
+?Do We Need to Scale Dummy Variables?
+-Depends on context. Depends on how much we want to keep interpretation in our models.
+*Even if our machine learning models aren't based on Euclidean distances we still need to do feature scaling because the algorithm will converge much faster.
