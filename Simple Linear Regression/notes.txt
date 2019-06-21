@@ -1,0 +1,10 @@
+Simple Linear Regression 
+--	y = b(0) + b(1)*x(1)	-- 
+* y = dependent variable(DV)
+* x(1)= independent variable(IV)
+* b(1) = coefficient
+* b(0) = constant
+
+-> Salary = b(0) + b(1)*Exprience
+
+- sklearn.linear_model => The sklearn.linear_model module implements generalized linear models. It includes Ridge regression, Bayesian Regression, Lasso and Elastic Net estimators computed with Least Angle Regression and coordinate descent. It also implements Stochastic Gradient Descent related algorithms.
