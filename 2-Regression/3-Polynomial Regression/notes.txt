@@ -1,0 +1,10 @@
+	Polynomial Linear Regression
+--	y = b(0) + b(1) * x(1) + b(2) * x(1)^2 + ..... + b(n) * x(1)^n	-- 
+
+Linearity-> For linearity we're looking for coefficients. Not looking for x variables.
+
+class PolynomialFeatures(BaseEstimator, TransformerMixin):
+
+Generate polynomial and interaction features.
+
+Generate a new feature matrix consisting of all polynomial combinations of the features with degree less than or equal to the specified degree. For example, if an input sample is two dimensional and of the form [a, b], the degree-2 polynomial features are [1, a, b, a^2, ab, b^2].
