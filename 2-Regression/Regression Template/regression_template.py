@@ -26,7 +26,7 @@ y_train = sc_y.fit_transform(y_train)"""
 # Create your regressor here
 
 # Predicting a new result
-y_pred = regressor.predict(6.5)
+y_pred = regressor.predict([[6.5]])
 
 # Visualising the Regression results
 plt.scatter(X, y, color = 'red')
